@@ -1,0 +1,20 @@
+{
+  "name": "magebitcom/magento2-hyva-checkout-cardstream-payment",
+  "version": "1.0.0",
+  "description": "This module enables to use Cardstream module with Hyva checkout",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "hyva-themes/magento2-compat-module-fallback": "*",
+    "hyva-themes/magento2-hyva-checkout": "*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magebit\\CheckoutCardStreamPayment\\": ""
+    }
+  }
+}
