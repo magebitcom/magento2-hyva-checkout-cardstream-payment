@@ -12,7 +12,6 @@
         <sequence>
             <module name="Hyva_Checkout"/>
             <module name="Cardstream_PaymentGateway"/>
-            <module name="Magebit_CardStream"/>
         </sequence>
     </module>
 </config>
